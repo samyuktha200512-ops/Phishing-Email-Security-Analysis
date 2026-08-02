@@ -1,5 +1,13 @@
 # 📧 Email Threat Investigation & Analysis
 
+![Documentation](https://img.shields.io/badge/Documentation-Markdown-blue)
+![SOC](https://img.shields.io/badge/SOC-Investigation-red)
+![Email Security](https://img.shields.io/badge/Email-Security-orange)
+![Digital Forensics](https://img.shields.io/badge/Digital-Forensics-purple)
+![OSINT](https://img.shields.io/badge/OSINT-Enabled-green)
+
+---
+
 ## 📌 Overview
 
 This project demonstrates a SOC-style investigation of suspicious and legitimate emails. The objective was to analyze each email, identify phishing indicators, extract Indicators of Compromise (IOCs), classify the risk level, and document the findings in a professional incident report.
@@ -34,33 +42,35 @@ The investigation was performed using standard email analysis techniques, includ
 
 ---
 
-## 🔍 Investigation Workflow
+## 🔄 Investigation Workflow
 
-```
-Receive Email
-      │
-      ▼
-Review Email Header
-      │
-      ▼
-Verify SPF • DKIM • DMARC
-      │
-      ▼
-Analyze Sender & Routing
-      │
-      ▼
-Inspect Links & Attachments
-      │
-      ▼
-Extract Indicators of Compromise (IOCs)
-      │
-      ▼
-Risk Classification
-      │
-      ▼
-SOC Investigation Report
-```
+```text
+                 📩 Email Received
+                        │
+                        ▼
+             🔍 Header Analysis
+        (SPF • DKIM • DMARC)
+                        │
+                        ▼
+          🌐 URL & Attachment Analysis
+                        │
+                        ▼
+         🧩 IOC Extraction & Validation
+        (IP • Domain • Hash • URLs)
+                        │
+                        ▼
+       🦠 Threat Intelligence Lookup
+      (VirusTotal / AbuseIPDB / WHOIS)
+                        │
+                        ▼
+           ⚖️ Risk Assessment
+      (Benign / Suspicious / Malicious)
+                        │
+                        ▼
+          📝 Investigation Report
 
+This investigation follows a structured SOC workflow, starting from email triage and header analysis through IOC validation, threat intelligence enrichment, risk assessment, and final reporting.
+```
 ---
 
 ## 🧰 Tools Used
