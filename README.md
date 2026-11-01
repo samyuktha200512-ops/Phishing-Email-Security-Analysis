@@ -1,4 +1,4 @@
-# 📧 Email Threat Investigation & Analysis
+# 📧 Phishing Email Security Analysis
 
 ![Documentation](https://img.shields.io/badge/Documentation-Markdown-blue)
 ![SOC](https://img.shields.io/badge/SOC-Investigation-red)
